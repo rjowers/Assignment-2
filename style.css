@@ -22,20 +22,21 @@ li {
   position: relative;
   float: left;
   margin-right: 20px;
-  border-bottom: 2px;
-  border-color: #D3D3D3;
+
 }
 
  .authors > li > a > img {
   height: 25px;
   width: 25px;
   float: left;
-  display: inline;
+  position: relative;
+  top: -3px;
 }
+
+
 .image-caption {
   position: relative;
   float: right;
-  margin-right: 20px;
 }
 a {
   text-decoration: none;
@@ -45,7 +46,6 @@ a {
   position: relative;
   float: left;
   color: #D3D3D3;
-  font-style: italic;
 }
 
 ul {
